@@ -9,96 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <style>
-      p{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-    </style>
-
-    <style>
-      .thumbnail{
-        width: 100%;
-        
-      }
-
-      .search-bar{
-        font-size: 20px;
-        display: block;
-      }
-
-      .video-title{
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-
-
-      .video-info-grid{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .channel-picture{
-        vertical-align: top;
-      }
-
-      .video-info{
-        width: 200px; 
-      }
-
-      .profile-picture{
-        width: 40px;
-        border-radius: 50px;
-        
-      }
-
-      .thumbnail-row{
-        margin-bottom: 12px;
-      }
-
-      .video-author,
-      .video-stats{
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-      }
-
-      .video-author{
-        margin-bottom: 4px;
-      }
-
-      .channel-picture2{
-       display: grid;
-      }
-      
-      .video-info2{
-        display: inline-block;
-         width: 200px;       
-      }
-
-      .profile-picture2{
-        width: 40px;
-        border-radius: 50px;
-      }
-      
-      .thumbnail-row2{
-        margin-bottom: 12px;
-      }
-
-      .video-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
   </head>
   
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" 
+        placeholder="Search">
+        <img class="search-button" src="icons/search.svg" alt="">
+        <img class="voice-button" src="icons/voice-search-icon.svg" alt="">
+      </div>
+      <div class="right-section">
+        right section
+      </div>
+      
+    </div>
+    
     
 
    <div class="video-grid">  
@@ -159,24 +92,24 @@
       <div class="video-preview">
         
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
         </div>
 
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+          <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="">
         </div>
         <div class="video-info">
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
+      <p class="video-title"> 
+        Crazy Tik Toks Taken Moments Before DISASTER
       </p>
 
       <p class="video-author">
-        Marques Brownlee
+        SSSniperWolf
       </p>
 
       <p class="video-stats">
-        3.4M views &#183; 6 months ago
+        12M views &#183; 1 year ago
       </p>   
         </div>
       
@@ -186,24 +119,24 @@
       <div class="video-preview">
 
         <div class="thumbnail-row2">
-          <img class="thumbnail" src="thumbnail-2.webp" alt="">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
         </div>
         <div class="video-info-grid">
           <div class="channel-picture2">
-            <img class="profile-picture2"  src="channel-pictures/channel-2.jpeg" alt="">
+            <img class="profile-picture2"  src="channel-pictures/channel-4.jpeg" alt="">
           </div>
           
           <div class="video-info2">
-            <p class="video-title">
-              Try Not To Laugh Challenge #9
+            <p class="video-title">           
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
             </p>
 
             <p class="video-author">
-              Markiplier
+              Veritasium
             </p>
 
             <p class="video-stats">
-              19M views &#183; 4 years ago
+              18M views &#183; 4 months ago
             </p>
           </div>
 
@@ -213,24 +146,24 @@
       <div class="video-preview">
         
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
         </div>
 
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+          <img class="profile-picture" src="channel-pictures/channel-5.jpeg alt="">
         </div>
         <div class="video-info">
       <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
+          Kadane's Algorithm to Maximum Sum Subarray Problem
       </p>
 
       <p class="video-author">
-        Marques Brownlee
+        CS Dojo
       </p>
 
       <p class="video-stats">
-        3.4M views &#183; 6 months ago
+        519K views &#183; 5 years ago
       </p>   
         </div>
       
@@ -240,24 +173,24 @@
       <div class="video-preview">
 
         <div class="thumbnail-row2">
-          <img class="thumbnail" src="thumbnail-2.webp" alt="">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
         </div>
         <div class="video-info-grid">
           <div class="channel-picture2">
-            <img class="profile-picture2"  src="channel-pictures/channel-2.jpeg" alt="">
+            <img class="profile-picture2"  src="channel-pictures/channel-6.jpeg" alt="">
           </div>
           
           <div class="video-info2">
             <p class="video-title">
-              Try Not To Laugh Challenge #9
+              Anything You Can Fit In The Circle I’ll Pay For
             </p>
 
             <p class="video-author">
-              Markiplier
+              MrBeast
             </p>
 
             <p class="video-stats">
-              19M views &#183; 4 years ago
+              141M views &#183; 1 year ago
             </p>
           </div>
 
